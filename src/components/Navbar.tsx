@@ -61,7 +61,7 @@ export function Navbar() {
                                 <NavigationMenuLink asChild>
                                     <a
                                         className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted no-underline outline-none focus:shadow-md"
-                                        href="/"
+                                        href="https://old.meth.su/"
                                     >
                                         <img className="h-full w-full rounded-md" src="/images/rt.png" />
                                     </a>
