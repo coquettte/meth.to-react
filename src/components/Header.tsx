@@ -33,7 +33,7 @@ export function ModernHeader() {
                 </div>
                 <Sheet>
                     <SheetTrigger asChild>
-                        <Button variant="ghost" className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden">
+                        <Button variant="ghost" className="ml-4 mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden">
                             <Menu className="h-5 w-5" />
                             <span className="sr-only">Toggle Menu</span>
                         </Button>
@@ -51,7 +51,9 @@ export function ModernHeader() {
                         </nav>
                     </SheetContent>
                 </Sheet>
-                <ThemeToggle />
+                <div className="ml-2">
+                    <ThemeToggle />
+                </div>
             </div>
         </header>
     )
