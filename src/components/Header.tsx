@@ -26,10 +26,8 @@ export function ModernHeader() {
                         <a className="transition-colors hover:text-foreground/80 text-foreground/60" href="/recipe/3">Semtex</a>
                         <a className="transition-colors hover:text-foreground/80 text-foreground/60" href="/recipe/4">Flashbang</a>
                         <a className="transition-colors hover:text-foreground/80 text-foreground/60" href="/recipe/5">Napalm</a>
-                    </nav>
-                    <div className="ml-5">
                         <Navbar />
-                    </div>
+                    </nav>
                 </div>
                 <Sheet>
                     <SheetTrigger asChild>
@@ -48,6 +46,7 @@ export function ModernHeader() {
                             <a className="transition-colors hover:text-foreground/80 text-foreground/60" href="/recipe/3">Semtex</a>
                             <a className="transition-colors hover:text-foreground/80 text-foreground/60" href="/recipe/4">Flashbang</a>
                             <a className="transition-colors hover:text-foreground/80 text-foreground/60" href="/recipe/5">Napalm</a>
+                            <Navbar />
                         </nav>
                     </SheetContent>
                 </Sheet>
