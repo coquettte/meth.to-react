@@ -76,9 +76,6 @@ export function Navbar() {
                             <ListItem href="https://forum.meth.su/" title="Forum">
                                 Meth Forum
                             </ListItem>
-                            <ListItem href="https://discord.gg/e7tmuuk9At" title="Discord">
-                                Discord Server
-                            </ListItem>
                         </ul>
                     </NavigationMenuContent>
                 </NavigationMenuItem>

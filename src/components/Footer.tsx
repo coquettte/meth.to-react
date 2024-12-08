@@ -1,5 +1,4 @@
 import { Globe } from 'lucide-react'
-import { FaDiscord } from "react-icons/fa";
 
 export function ModernFooter() {
     return (
@@ -13,9 +12,6 @@ export function ModernFooter() {
                 <div className="flex gap-4">
                     <a href="https://coquettte.com" target="_blank" rel="noreferrer">
                         <Globe className="h-5 w-5 text-muted-foreground hover:text-foreground" />
-                    </a>
-                    <a href="https://discord.gg/e7tmuuk9At" target="_blank" rel="noreferrer">
-                        <FaDiscord className="h-5 w-5 text-muted-foreground hover:text-foreground" />
                     </a>
                 </div>
             </div>
